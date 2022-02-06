@@ -1,0 +1,4 @@
+#policz1
+
+ls -1 | wc -l 
+

@@ -1,0 +1,11 @@
+#policz2
+
+if test "$1" = '-a'
+then
+	a=$(ls -a -1 | wc -l) 
+else
+	a=$(ls -1 | wc -l)
+fi
+echo $a
+ 
+

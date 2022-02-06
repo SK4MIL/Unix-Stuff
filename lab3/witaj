@@ -1,0 +1,10 @@
+#witaj
+dzien=$(date  +%u)
+date '+Dzis: %A %d.%m.%y'
+if test "$dzien" -gt 5
+then
+	echo 'Witaj, dzis masz wolne!'
+else
+	echo 'Witaj, szykuj sie do pracy :('
+fi
+
