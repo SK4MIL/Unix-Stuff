@@ -1,5 +1,0 @@
-for file in *
-do 
- zmien=`echo $file | sed 's/ /_/g'`
- echo $zmien
-done
