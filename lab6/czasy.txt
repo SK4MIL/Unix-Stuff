@@ -1,0 +1,18 @@
+Kupuj4:
+Suma zakupionych produktów: 19685488
+        Czas realny: 3.362s
+        Czas użytkownika: 38.940s
+        Czas systemu: 0.130s
+        Całkowity czas CPU: 39.070s
+Kupuj5:
+Suma zakupionych produktów: 25000000
+        Czas realny: 8.905s
+        Czas użytkownika: 11.760s
+        Czas systemu: 87.290s
+        Całkowity czas CPU: 99.050s
+Kupuj6:
+Suma zakupionych produktów: 25000000
+        Czas realny: 4.596s
+        Czas użytkownika: 23.720s
+        Czas systemu: 16.840s
+        Całkowity czas CPU: 40.560s
