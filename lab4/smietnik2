@@ -1,0 +1,21 @@
+#smietnik
+
+if ! [ -e ~/.smietnik ]
+then
+	mkdir ~/.smietnik
+fi
+
+find ~/.smietnik -ctime +14 -exec rm -r -f {} \;
+
+for i in "$@"
+do
+echo "Czy usnac permamentnie -- $i -- ? (y/n)"
+
+read ans
+
+case $ans in
+	'[yYTt]*' ) echo 'jest' ;;
+	'*' ) echo 'nie ma' ;;
+esac	
+done
+  

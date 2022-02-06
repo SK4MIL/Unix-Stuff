@@ -1,0 +1,6 @@
+#Zad 1a
+for i  in "$@"
+do
+echo '"'""$i""'"'
+#echo "\"$i"\"
+done

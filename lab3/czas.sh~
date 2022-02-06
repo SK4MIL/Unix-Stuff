@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [test "$1"];then zmienna= 5 ; else zmienna=$1; fi;
+
+while true
+do
+	clear
+	date +'%H:%M:%S'
+	echo $zmienna
+	sleep $zmienna
+done
+

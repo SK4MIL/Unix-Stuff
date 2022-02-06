@@ -1,0 +1,22 @@
+#Zad 2 Menu
+while true
+do
+	echo '(a) - info o sys'
+	echo '(b) - info o folderze'
+	echo '(c) - data i godzina'
+	echo '(d) - wyjdz'
+read ans
+#switch ( $ans ) {
+#	case "a" { echo 'info o sys' ; uname -o }
+#	case "b" { echo 'info o folderze' ; pwd }
+#	case "c" { echo 'data i godzina' ; date +'%F   %T' } 
+#	case "d" {exit}
+#}
+case $ans in
+	'a') uname -n uname -o ;;
+	'b') pwd /LOGNAME '' ;;
+	'c') date +'%D %T' ;;
+	'd') break ;;
+esac
+done
+
